@@ -1,0 +1,121 @@
+* {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+body {
+    background-color: #BABABA;
+    margin: 0;
+    padding: 0;
+}
+
+#geral {
+    width: 90%;
+    margin: auto;
+}
+
+#topo {
+    background-color: #77C244;
+}
+
+#topo img {
+    padding: 10px;
+}
+
+#topo #login {
+    float: right;
+    padding: 10px 10px 0px 0px;
+}
+
+#menu {
+    background-color: #00262F;
+    height: 30px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 6px 6px;
+    float: left;
+}
+
+#menu ul li a:hover {
+    background-color: #00702F;
+}
+
+
+#conteudo {
+    background-color: #FFFFFF;
+    min-height: 200px;
+}
+
+#conteudo #titulo {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+    padding: 5px;
+}
+
+#conteudo #corpo {
+    padding: 20px;
+}
+
+#rodape {
+    background-color: #00262F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table thead {
+    background-color: #BABABA;
+    padding: 5px;
+}
+
+table tbody tr.impar {
+    background-color: #DEDEDE;
+}
+
+table tbody tr td.center {
+    text-align: center;
+}
+
+table tfoot {
+    background-color: #BABABA;
+}
+
+label {
+    float: left;
+    width: 100px;
+    text-align: left;
+}
+
+#notificacao {
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFCCCC;
+    padding: 5px;
+    border: solid 1px #FF5555;
+    margin-bottom: 5px;
+}
+
+#novaMensagem {
+    background-color: #EEEEEE;
+    padding: 5px;
+}
